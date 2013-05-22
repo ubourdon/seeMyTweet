@@ -12,7 +12,9 @@ import play.api.libs.json.Reads._
 
 object Application extends Controller {
 
-    def index = Action {
+    def index = Action { Ok(views.html.index()) }
+
+    def retrieveQuoters(userQuoted: String) = Action {
         Ok(Await.result(toJson(retrieveMentionTweets), Duration.Inf))
     }
 
