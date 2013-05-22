@@ -1,0 +1,276 @@
+{
+
+    "completed_in": 0.036,
+    "max_id": 335415074032320500,
+    "max_id_str": "335415074032320512",
+    "page": 1,
+    "query": "%40ugobourdon",
+    "refresh_url": "?since_id=335415074032320512&q=%40ugobourdon&include_entities=1",
+    "results": [
+        {
+            "created_at": "Fri, 17 May 2013 15:22:40 +0000",
+            "entities": {
+                "hashtags": [ ],
+                "urls": [ ],
+                "user_mentions": [
+                    {
+                        "screen_name": "ugobourdon",
+                        "name": "ugo bourdon",
+                        "id": 339729029,
+                        "id_str": "339729029",
+                        "indices": [
+                            0,
+                            11
+                        ]
+                    }
+                ]
+            },
+            "from_user": "gbougeard",
+            "from_user_id": 39234902,
+            "from_user_id_str": "39234902",
+            "from_user_name": "Grégory BOUGEARD",
+            "geo": null,
+            "id": 335415074032320500,
+            "id_str": "335415074032320512",
+            "iso_language_code": "fr",
+            "metadata": {
+                "result_type": "recent"
+            },
+            "profile_image_url": "http://a0.twimg.com/profile_images/3149772900/90aa6fe8faec1264359da2b2a4fcdb59_normal.jpeg",
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/3149772900/90aa6fe8faec1264359da2b2a4fcdb59_normal.jpeg",
+            "source": "&lt;a href=&quot;http://www.tweetdeck.com&quot;&gt;TweetDeck&lt;/a&gt;",
+            "text": "@ugobourdon il parait que ca dépote. Faut que j'essaye.",
+            "to_user": "ugobourdon",
+            "to_user_id": 339729029,
+            "to_user_id_str": "339729029",
+            "to_user_name": "ugo bourdon",
+            "in_reply_to_status_id": 335414934819201000,
+            "in_reply_to_status_id_str": "335414934819201024"
+        },
+        {
+            "created_at": "Thu, 16 May 2013 16:55:22 +0000",
+            "entities": {
+                "hashtags": [ ],
+                "urls": [ ],
+                "user_mentions": [
+                    {
+                        "screen_name": "ugobourdon",
+                        "name": "ugo bourdon",
+                        "id": 339729029,
+                        "id_str": "339729029",
+                        "indices": [
+                            0,
+                            11
+                        ]
+                    }
+                ]
+            },
+            "from_user": "ugobourdon",
+            "from_user_id": 339729029,
+            "from_user_id_str": "339729029",
+            "from_user_name": "ugo bourdon",
+            "geo": null,
+            "id": 335076017242796000,
+            "id_str": "335076017242796032",
+            "iso_language_code": "en",
+            "metadata": {
+                "result_type": "recent"
+            },
+            "profile_image_url": "http://a0.twimg.com/profile_images/1453484500/wanted_luffy_normal.jpg",
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/1453484500/wanted_luffy_normal.jpg",
+            "source": "&lt;a href=&quot;http://www.tweetdeck.com&quot;&gt;TweetDeck&lt;/a&gt;",
+            "text": "@ugobourdon be careful the 'immutable way' works not very well when you have lot of tests using mongodb ... :/ pull reuquest accepted :D",
+            "to_user": "ugobourdon",
+            "to_user_id": 339729029,
+            "to_user_id_str": "339729029",
+            "to_user_name": "ugo bourdon",
+            "in_reply_to_status_id": 335064385481474050,
+            "in_reply_to_status_id_str": "335064385481474048"
+        },
+        {
+            "created_at": "Thu, 16 May 2013 03:07:31 +0000",
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "scalatest",
+                        "indices": [
+                            35,
+                            45
+                        ]
+                    },
+                    {
+                        "text": "scala",
+                        "indices": [
+                            90,
+                            96
+                        ]
+                    }
+                ],
+                "urls": [
+                    {
+                        "url": "https://t.co/SMNHhMqpLA",
+                        "expanded_url": "https://github.com/SimplyScala/scalatest-embedmongo",
+                        "display_url": "github.com/SimplyScala/sc…",
+                        "indices": [
+                            66,
+                            89
+                        ]
+                    }
+                ],
+                "user_mentions": [
+                    {
+                        "screen_name": "ugobourdon",
+                        "name": "ugo bourdon",
+                        "id": 339729029,
+                        "id_str": "339729029",
+                        "indices": [
+                            3,
+                            14
+                        ]
+                    }
+                ]
+            },
+            "from_user": "chuacheeseng83",
+            "from_user_id": 28601180,
+            "from_user_id_str": "28601180",
+            "from_user_name": "Chua Chee Seng",
+            "geo": null,
+            "id": 334867682530832400,
+            "id_str": "334867682530832384",
+            "iso_language_code": "en",
+            "metadata": {
+                "result_type": "recent"
+            },
+            "profile_image_url": "http://a0.twimg.com/profile_images/149827599/cs_normal.jpg",
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/149827599/cs_normal.jpg",
+            "source": "&lt;a href=&quot;http://twitter.com/&quot;&gt;web&lt;/a&gt;",
+            "text": "RT @ugobourdon: the 0.2 version of #scalatest-embedmongo is out ! https://t.co/SMNHhMqpLA #scala 2.10 compilation &amp; cross compilation in 2.9"
+        },
+        {
+            "created_at": "Wed, 15 May 2013 19:05:10 +0000",
+            "entities": {
+                "hashtags": [ ],
+                "urls": [ ],
+                "user_mentions": [
+                    {
+                        "screen_name": "ugobourdon",
+                        "name": "ugo bourdon",
+                        "id": 339729029,
+                        "id_str": "339729029",
+                        "indices": [
+                            3,
+                            14
+                        ]
+                    }
+                ]
+            },
+            "from_user": "AlfredAlmendra",
+            "from_user_id": 271060150,
+            "from_user_id_str": "271060150",
+            "from_user_name": "Alfred Almendra",
+            "geo": null,
+            "id": 334746293245181950,
+            "id_str": "334746293245181953",
+            "iso_language_code": "fr",
+            "metadata": {
+                "result_type": "recent"
+            },
+            "profile_image_url": "http://a0.twimg.com/profile_images/1516274609/alfred.almendra.twitter_normal.jpg",
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/1516274609/alfred.almendra.twitter_normal.jpg",
+            "source": "&lt;a href=&quot;http://seesmic.com/&quot;&gt;Seesmic&lt;/a&gt;",
+            "text": "RT @ugobourdon: \"Notre cerveau n'est pas fait pour penser, il est fait pour agir\". Henri Laborit"
+        },
+        {
+            "created_at": "Wed, 15 May 2013 16:30:22 +0000",
+            "entities": {
+                "hashtags": [ ],
+                "urls": [
+                    {
+                        "url": "http://t.co/u0ducXj0cw",
+                        "expanded_url": "http://www.lepoint.fr/t/1-1666382",
+                        "display_url": "lepoint.fr/t/1-1666382",
+                        "indices": [
+                            120,
+                            142
+                        ]
+                    }
+                ],
+                "user_mentions": [
+                    {
+                        "screen_name": "ugobourdon",
+                        "name": "ugo bourdon",
+                        "id": 339729029,
+                        "id_str": "339729029",
+                        "indices": [
+                            3,
+                            14
+                        ]
+                    },
+                    {
+                        "screen_name": "guerricp",
+                        "name": "Guerric Poncet",
+                        "id": 51481820,
+                        "id_str": "51481820",
+                        "indices": [
+                            39,
+                            48
+                        ]
+                    }
+                ]
+            },
+            "from_user": "BabylonZeus",
+            "from_user_id": 38638497,
+            "from_user_id_str": "38638497",
+            "from_user_name": "BabylonZeus",
+            "geo": null,
+            "id": 334707336377663500,
+            "id_str": "334707336377663488",
+            "iso_language_code": "fr",
+            "metadata": {
+                "result_type": "recent"
+            },
+            "profile_image_url": "http://a0.twimg.com/profile_images/1005877384/NeoZeus_normal.jpg",
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/1005877384/NeoZeus_normal.jpg",
+            "source": "&lt;a href=&quot;http://twitter.com/&quot;&gt;web&lt;/a&gt;",
+            "text": "RT @ugobourdon: Très très juste !!! RT @guerricp: Et si le Trocadero et la Tour Eiffel étaient traités comme Internet ? http://t.co/u0ducXj0cw"
+        },
+        {
+            "created_at": "Wed, 15 May 2013 09:40:10 +0000",
+            "entities": {
+                "hashtags": [ ],
+                "urls": [ ],
+                "user_mentions": [
+                    {
+                        "screen_name": "ugobourdon",
+                        "name": "ugo bourdon",
+                        "id": 339729029,
+                        "id_str": "339729029",
+                        "indices": [
+                            3,
+                            14
+                        ]
+                    }
+                ]
+            },
+            "from_user": "yannickameur",
+            "from_user_id": 26256358,
+            "from_user_id_str": "26256358",
+            "from_user_name": "Yannick AMEUR",
+            "geo": null,
+            "id": 334604107526586400,
+            "id_str": "334604107526586370",
+            "iso_language_code": "fr",
+            "metadata": {
+                "result_type": "recent"
+            },
+            "profile_image_url": "http://a0.twimg.com/profile_images/3005280075/afb7842e8a70ecb706cbdc7a45e5c50a_normal.jpeg",
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/3005280075/afb7842e8a70ecb706cbdc7a45e5c50a_normal.jpeg",
+            "source": "&lt;a href=&quot;http://twitter.com/download/iphone&quot;&gt;Twitter for iPhone&lt;/a&gt;",
+            "text": "RT @ugobourdon: \"Notre cerveau n'est pas fait pour penser, il est fait pour agir\". Henri Laborit"
+        }
+    ],
+    "results_per_page": 100,
+    "since_id": 0,
+    "since_id_str": "0"
+
+}

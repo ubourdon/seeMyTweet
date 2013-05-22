@@ -35,19 +35,38 @@ object Application extends Controller {
     implicit val readTweet: Reads[Seq[Tweet]] =
         (__ \ "results").read(
             seq(
+                (__ \ "from_user_name").read[String] and
                 (__ \ "from_user").read[String] and
-                (__ \ "text").read[String]
+                (__ \ "text").read[String] and
+                (__ \ "entities" \ "hashtags").readNullable(
+                    seq(
+                        (__ \ "text").read[String]
+                    )
+                ) and
+                (__ \ "profile_image_url").read[String]
 
                 tupled
             )
         ).map( _.collect {
-            case (user, text) => Tweet(user, text)
+            case (userLogin, userName, text, Some(hashtags), image) => Tweet(User(userLogin, userName, image), text, hashtags.toList)
+            case (userLogin, userName, text, None, image) => Tweet(User(userLogin, userName, image), text, Nil)
         })
 
-    implicit val writeTweetAsJson = Json.writes[Tweet]
+    implicit val writeUserAsJson: Writes[User] = (
+        (__ \ "login").write[String] and
+        (__ \ "name").write[String] and
+        (__ \ "image_url").write[String]
+    )(unlift(User.unapply))
+
+    implicit val writeTweetAsJson: Writes[Tweet] = (
+        (__ \ "user").write(writeUserAsJson) and
+        (__ \ "text").write[String] and
+        (__ \ "hashtags").write( Writes.seq( (__ \ "text").write[String] ) )
+        )(unlift(Tweet.unapply))
 }
 
-case class Tweet(user: String, content: String/*, hashtags: List[String]*/)
+case class Tweet(user: User, content: String, hashtags: List[String])
+case class User(login: String, name: String, icon_url: String)
 
 // tweets mentionnant @ugobourdon : http://search.twitter.com/search.json?q=%40ugobourdon&src=typd
 // tweets 5 derniers favoris @ugobourdon : https://api.twitter.com/1/favorites.json?count=5&screen_name=ugobourdon
