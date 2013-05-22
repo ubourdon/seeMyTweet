@@ -15,13 +15,13 @@ object Application extends Controller {
     def index = Action { Ok(views.html.index()) }
 
     def retrieveQuoters(userQuoted: String) = Action {
-        Ok(Await.result(toJson(retrieveMentionTweets), Duration.Inf))
+        Ok(Await.result(toJson(retrieveMentionTweets(userQuoted)), Duration.Inf))
     }
 
     private def toJson(result: Future[Seq[Tweet]]): Future[JsValue] = result.map( tweet => Json.toJson(tweet) )
 
-    private def retrieveMentionTweets: Future[Seq[Tweet]] = {
-        WS.url("http://search.twitter.com/search.json?q=%40ugobourdon&src=typd").withQueryString(
+    private def retrieveMentionTweets(userName: String): Future[Seq[Tweet]] = {
+        WS.url(s"http://search.twitter.com/search.json?q=%40${userName}&src=typd").withQueryString(
             "page" -> "1",
             "include_entities" -> "true",
             "rpp" -> "100"
