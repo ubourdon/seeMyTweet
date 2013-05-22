@@ -1,3 +1,30 @@
-@(message: String)
+@()
+<!DOCTYPE html>
 
+<html lang="fr">
+<head>
+    <title>See Your Twitter Mentions !</title>
+    <link rel="stylesheet" media="screen" href='@routes.Assets.at("stylesheets/main.css")'>
+</head>
 
+<body>
+    <header>
+        <h1>See your Twitter mentions !</h1>
+    </header>
+
+    <form method="GET" action="/quoters">
+        <input id="tweetLogin" name="name" type="text" placeholder="the twitter user's login you want to see mentions of" />
+        <input type="submit" value="" />
+    </form>
+
+    <table>
+        <tr><th></th><th>user</th><th>tweet</th><th>hashtags</th></tr>
+        <tr>
+            <td><img src="http://a0.twimg.com/profile_images/3149772900/90aa6fe8faec1264359da2b2a4fcdb59_normal.jpeg" alt="edoudou" title="edoudou" /></td>
+            <td>edoudou</td><td>@@ugobourdon t'es le meilleur du monde et blablablabla blablabla blabla bla bla strauser lsqdk qmslk qsmdlk qmsldk qmsldk qmlskd qmsldk qmldk</td>
+            <td>#ugo #theBoGoss</td>
+        </tr>
+    </table>
+</body>
+
+</html>
